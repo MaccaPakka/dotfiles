@@ -21,6 +21,14 @@ cd; curl -#L https://github.com/macca-pakka/dotfiles/tarball/master | tar -xzv -
 
 ---
 
+### Set sensible OSX defaults
+```bash
+bash .osx.sh
+```
+**This gets rid of a load of defaults, sets other things. You may need to restart.**
+
+---
+
 ### Install [Homebrew](http://brew.sh) then use it to install [Git](http://git-scm.com), [Node](http://nodejs.org) and [Brew Cask](http://caskroom.io)
 
 
