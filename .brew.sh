@@ -11,6 +11,7 @@ sudo xcodebuild -license
 brew install git
 
 # Install Node.js - this installs `npm` too, using the recommended installation method
+brew install fish
 brew install node
 
 brew install yarn --without-node
