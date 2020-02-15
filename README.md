@@ -7,7 +7,7 @@
 ## Backup any current dotfiles
 
 ```bash
-cd; curl -L https://raw.githubusercontent.com/furzeface/dotfiles/master/.backup.sh > .backup.sh && bash .backup.sh
+cd; curl -L https://raw.githubusercontent.com/macca-pakka/dotfiles/master/.backup.sh > .backup.sh && bash .backup.sh
 ```
 
 Just to be safe!
