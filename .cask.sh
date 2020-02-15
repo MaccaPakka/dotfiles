@@ -5,6 +5,8 @@
 # Core Functionality
 echo Installing core apps…
 brew cask install --appdir="/Applications" flux
+brew cask install --appdir="/Applications" alfred
+brew cask install --appdir="/Applications" setapp
 
 # Browsers
 echo Installing browsers…
@@ -14,10 +16,10 @@ brew cask install --appdir="/Applications" firefox
 
 # Development apps
 echo Installing dev apps…
+brew cask install --appdir="/Applications" hyper
+brew cask install --appdir="/Applications" visual-studio-code
 brew cask install --appdir="/Applications" postman
 brew cask install --appdir="/Applications" sketch
-brew cask install --appdir="/Applications" sketch-toolbox
-brew cask install --appdir="/Applications" visual-studio-code
 
 # Additional apps
 echo Installing some additional apps…
