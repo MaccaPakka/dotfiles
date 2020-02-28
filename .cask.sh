@@ -19,11 +19,15 @@ echo Installing dev apps…
 brew cask install --appdir="/Applications" hyper
 brew cask install --appdir="/Applications" visual-studio-code
 brew cask install --appdir="/Applications" postman
+
+# Design apps
 brew cask install --appdir="/Applications" sketch
+brew cask install --appdir="/Applications" figma
 
 # Additional apps
 echo Installing some additional apps…
 brew cask install --appdir="/Applications" slack
+brew cask install --appdir="/Applications" grammarly
 
 # cleanup
 echo Cleaning up…
